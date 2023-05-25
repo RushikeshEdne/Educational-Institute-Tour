@@ -1,0 +1,34 @@
+.branch1{
+    text-align:left;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.branch2{
+    text-align:center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.branch3{
+    text-align:right;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.B1{
+    color: blueviolet;
+    background-color: black;
+    width :33%;
+    height: 40px;
+    text-align: center;
+}
+
+.main{
+ 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8SWFSni8bNrXQiBTuKaN-h9o9LV5J0fgCKJaN4U7xTg&s);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+

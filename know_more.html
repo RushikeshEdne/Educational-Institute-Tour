@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="know_more.css">
+    <title>Know more</title>
+</head>
+<body class="main">
+    <!-- <div class="B1">
+    <p class="branch1">BRANCH IN ENGINEERING<br>
+         <select name="Year" id="Current Year">
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option value="">Select branch</option>
+            <option value="https://www.careers360.com/courses/computer-science-engineering-course ">Computer Science</option>
+            <option value="Second ">IT</option>
+            <option value="Third ">ENTC</option>
+            <option value="Fourth ">OTHER</option>
+        </select>
+    </p>
+</div> -->
+
+    <!-- <p class="branch2">BRANCH IN MEDICAL?<br>
+        <select name="Year" id="Current Year">
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option value="">Select branch</option>
+            <option value="https://www.careers360.com/courses/computer-science-engineering-course ">Computer Science</option>
+            <option value="Second ">IT</option>
+            <option value="Third ">ENTC</option>
+            <option value="Fourth ">OTHER</option>
+        </select>
+    </p> -->
+
+    <!-- <p class="branch3">BRANCH IN ARCHITECTURE<br>
+         <select name="Year" id="Current Year"> 
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option value="">Select branch</option>
+            <option value="https://www.careers360.com/courses/computer-science-engineering-course ">Computer Science</option>
+            <option value="Second ">IT</option>
+            <option value="Third ">ENTC</option>
+            <option value="Fourth ">OTHER</option>
+        </select>
+    </p> -->
+
+
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar navbar-light bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOsA5LXsmk59bHCPP7UA5jn5Ahwu4_O8RLQEnc9o2koA&s">
+            <p class="branch1">BRANCH IN ENGINEERING<br>
+                <!-- <select name="Year" id="Current Year"> -->
+                <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option value="">Select branch</option>
+                    <option value="https://www.careers360.com/courses/computer-science-engineering-course ">Computer Science</option>
+                    <option value="https://www.careers360.com/courses/information-technology-course#:~:text=Information%20Technology%20(IT)%20is%20the,with%20and%20manipulate%20information%2Fdata. ">IT</option>
+                    <option value="https://www.careers360.com/question-i-have-taken-entc-branch-in-btech-what-kind-of-scope-it-has-and-what-kind-of-opportunities-i-can-get-by-this-branch-or-should-i-change-my-branch-after-first-year ">ENTC</option>
+                    <option value="Fourth ">OTHER</option>
+                </select>
+            </p>
+        </div>
+      </nav>
+      <br>
+
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <img  src="data:image/png;base64,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">
+            <p class="branch1">BRANCH IN MEDICAL<br>
+                <!-- <select name="Year" id="Current Year"> -->
+                <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option value="">Select branch</option>
+                    <option value="">MBBS</option>
+                    <option value=" https://ccic.co.in/bpt-course-in-india.php#:~:text=About%20Bachelor's%20in%20Physiotherapy%20(BPT,at%20preventing%20disease%20and%20disability.">BPT</option>
+                    <option value=" https://www.vidhyaa.in/course/bsc-medical-1053/1">B.Sc</option>
+                    <option value="Fourth ">OTHER</option>
+                </select>
+            </p>
+        </div>
+      </nav>
+      <br>
+
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMNnQm7y5m4kI3RtAkOa4Aq743J-LtFaCTrYGpzZnG2Q&s">
+            <p class="branch1">BRANCH IN ARCHITECTURE<br>
+                <!-- <select name="Year" id="Current Year"> -->
+                <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option value="">Select branch</option>
+                    <option value="https://leverageedu.com/blog/architecture-courses/ ">Architect</option>
+                    <option value=" https://www.careers360.com/courses/architecture-town-and-regional-planning-course">Town planner</option>
+                    <option value="Third ">Structural Engineer</option>
+                    <option value="Fourth ">OTHER</option>
+                </select>
+            </p>
+        </div>
+      </nav>
+    
+</body>
+</html>
